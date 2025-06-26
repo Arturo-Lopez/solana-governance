@@ -25,7 +25,7 @@ export const realmId = new PublicKey(
 );
 
 export const mainGovernanceId = new PublicKey(
-  "J8eNtAahV1hnpibsYH5S3KinPuHkDMnjP19RZTRckFKd"
+  "DXfdrGexi7sY4NHhZfNBcSnGgnhxAQPSkH6yVLLnVLiv"
 );
 
 export const realmOwnerId = new PublicKey(

@@ -80,7 +80,7 @@ const creteRealm = async () => {
   // Put community and council mints under the realm governance with default config
   const config = new GovernanceConfig({
     communityVoteThreshold: communityVoteThreshold,
-    minCommunityTokensToCreateProposal: minCommunityTokensToCreateAsMintValue,
+    minCommunityTokensToCreateProposal: new BN("0"),
     // Do not use instruction hold up time
     minInstructionHoldUpTime: 0,
     // maxVotingTime = baseVotingTime + votingCoolOffTime
